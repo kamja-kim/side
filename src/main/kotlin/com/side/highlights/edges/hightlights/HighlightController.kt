@@ -24,9 +24,13 @@ class HighlightController(
         return service.create(file, body)
     }
 
-    @PutMapping("/highlights/{id}")
-    fun update(@PathVariable id: String, @RequestBody body: UpdateHighlightRequest): UpdateHighlightResponse {
-        return service.update(id, body)
+    @PutMapping("/highlights/{id}", consumes = [MediaType.MULTIPART_FORM_DATA_VALUE])
+    fun update(
+        @PathVariable id: String,
+        @RequestPart file: MultipartFile?,
+        @ModelAttribute body: UpdateHighlightRequest
+    ): UpdateHighlightResponse {
+        return service.update(id, file, body)
     }
 
     @GetMapping("/highlights/{id}")

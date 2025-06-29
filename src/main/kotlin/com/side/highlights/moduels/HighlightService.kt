@@ -20,7 +20,7 @@ class HighlightService {
         TODO("Not yet implemented")
     }
 
-    fun update(id: String, update: UpdateHighlightRequest): List<HighlightDto> {
+    fun update(id: String, file: MultipartFile?, update: UpdateHighlightRequest): List<HighlightDto> {
         TODO("Not yet implemented")
     }
 }
