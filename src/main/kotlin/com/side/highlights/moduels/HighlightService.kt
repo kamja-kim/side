@@ -1,6 +1,7 @@
 package com.side.highlights.moduels
 
 import CreateHighlightRequest
+import UpdateHighlightRequest
 import com.side.highlights.models.HighlightDto
 import org.springframework.stereotype.Service
 import org.springframework.web.multipart.MultipartFile
@@ -19,7 +20,7 @@ class HighlightService {
         TODO("Not yet implemented")
     }
 
-    fun update(id: String, update: CreateHighlightRequest): List<HighlightDto> {
+    fun update(id: String, update: UpdateHighlightRequest): List<HighlightDto> {
         TODO("Not yet implemented")
     }
 }

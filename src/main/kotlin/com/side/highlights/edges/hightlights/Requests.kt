@@ -3,4 +3,5 @@ data class CreateHighlightRequest(
 //    val text: String?,
     val title: String?,
     val author: String?,
+    val page: Int?,
 )
