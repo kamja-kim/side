@@ -104,14 +104,14 @@
         [
               {
                     "id": 1,
-                    "link": "https://cdn.example.com/thumbnails/a1b2c3d4e5f6.jpg",
+                    "link": "https://cdn.example.com/highlights/a1b2c3d4e5f6.jpg",
                     "title": null,
                     "author": null,
                     "page": null
                 },
                 {
                     "id": 2,
-                    "link": "https://cdn.example.com/thumbnails/g7h8i9j0k1l2.jpg",
+                    "link": "https://cdn.example.com/highlights/g7h8i9j0k1l2.jpg",
                     "title": "책 제목",
                     "author": "작가 이름",
                     "page": 3
