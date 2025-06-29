@@ -1,4 +1,6 @@
 # **하이라이트 기능 기술 스펙 문서**
+화면 구상 와이어 프레임
+![Image](https://github.com/user-attachments/assets/4b7d700b-4253-4b85-a72b-2ad0816d90a6)
 
 ## **1. 하이라이트 생성 (파일 업로드)**
 
