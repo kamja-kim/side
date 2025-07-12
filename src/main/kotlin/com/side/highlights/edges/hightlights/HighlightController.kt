@@ -38,7 +38,7 @@ class HighlightController(
         return service.get(id)
     }
 
-    @GetMapping("/me/highlights")
+    @GetMapping("/highlights")
     fun getAll(): GetAllHighlightsResponse {
         return service.getAll()
     }
